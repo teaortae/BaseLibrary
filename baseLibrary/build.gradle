@@ -74,7 +74,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.github.teaortae'
                 artifactId = 'final'
-                version = '0.1.0.01'
+                version = '0.1.0.02'
             }
             // Creates a Maven publication called “debug”.
             debug(MavenPublication) {
@@ -83,7 +83,7 @@ afterEvaluate {
 
                 groupId = 'com.github.teaortae'
                 artifactId = 'debug'
-                version = '0.1.0.01'
+                version = '0.1.0.02'
             }
         }
     }
